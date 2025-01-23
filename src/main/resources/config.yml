@@ -1,0 +1,44 @@
+language: "ru"
+
+freeze-location:
+  world: "world"
+  x: 0
+  y: 100
+  z: 0
+
+
+banned-words:
+  - "I am cheater"
+  - "I am cheating"
+  - "Motherfucker"
+  - "Suck my balls"
+  - "kys"
+
+behavior-ban-command: "ban {player} Cheating or inappropriate behavior."
+left-ban-command: "ban {player} Left while under investigation."
+freeze: "§aYou are frozen! §#6f07e6 Please wait for further instructions."
+unfreeze: "§#6f07e6You passed cheat investigation! Have fun!"
+
+messages:
+  en:
+    usage_sfreeze: "Usage: /ifreeze <player>"
+    player_not_found: "Player not found."
+    player_frozen: "Player {player} has been frozen."
+    player_unfrozen: "Player {player} has been unfrozen."
+    freeze_time_extended: "Your freeze time has been extended by 1 minute."
+    not_frozen: "You are not frozen."
+    command_players_only: "This command is for players only."
+    usage_sunfreeze: "Usage: /sunfreeze <player>"
+
+  ru:
+    usage_sfreeze: "Использование: /ifreeze <игрок>"
+    player_not_found: "Игрок не найден."
+    player_frozen: "Игрок {player} был заморожен."
+    player_unfrozen: "Игрок {player} был разморожен."
+    freeze_time_extended: "Ваше время заморозки было продлено на 1 минуту."
+    not_frozen: "Вы не заморожены."
+    command_players_only: "Эта команда только для игроков."
+    usage_sunfreeze: "Использование: /sunfreeze <игрок>"
+
+
+

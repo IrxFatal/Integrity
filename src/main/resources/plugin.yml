@@ -1,0 +1,25 @@
+name: IntegrityPlugin
+version: '${project.version}'
+main: dev.irxfatal.integrity.IntegrityPlugin
+api-version: '1.16'
+prefix: Integrity
+authors: [IrxFatal]
+description: A powerfull plugin to help your server moderators execute cheat checks on players.
+commands:
+  ifreeze:
+    description: Freeze a player for moderation purposes.
+    usage: /sfreeze <player>
+    permission: integrity.sfreeze
+    permission-message: You do not have permission to use this command.
+  iunfreeze:
+    description: Extend freeze time during moderation.
+    usage: /stime
+    permission: integrity.stime
+    permission-message: You do not have permission to use this command.
+permissions:
+  integrity.ifreeze:
+    description: Allows the use of the /sfreeze command.
+    default: op
+  integrity.iunfreeze:
+    description: Allows the use of the /sunfreeze command.
+    default: op
